@@ -2,15 +2,22 @@ body{
     /* background-image: url("./images/portbackground.jpg");
     background-size:cover; */
     color: black;
+    background-image:url('https: //media3.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif?cid=ecf05e47wl3wr4b1sa8pvyfbnd4uaxd95buobza713m2h794&rid=giphy.gif&ct=g');
 }
 
 button{
     height: 50px;
     align-content: center;
 }
-h1{
+h1, h2 , h3 , h4 , h5 , h6{
     text-align: center;
+    padding: 10px 50px 20px;
 }
-h4{
-    text-align: center;
+hr{
+    height: 3%;
+    align-items: center;
+    height: 8px;
+    background-color: black;
+    border-radius: 30px;
+    width: 60%;
 }

@@ -1,10 +1,12 @@
-body{
+@import url("https: //fonts.google.com/specimen/Poppins");
+
+*{
     /* background-image: url("./images/portbackground.jpg");
     background-size:cover; */
     color: black;
-    background-image:url('https: //media3.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif?cid=ecf05e47wl3wr4b1sa8pvyfbnd4uaxd95buobza713m2h794&rid=giphy.gif&ct=g');
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
 }
-
 button{
     height: 50px;
     align-content: center;
@@ -20,4 +22,31 @@ hr{
     background-color: black;
     border-radius: 30px;
     width: 60%;
+}
+
+div{
+    background-color: #6666;
+    width: 150px;
+    height: 150px;
+        border: 15px;
+        padding: 50px;
+        margin: 20px;
+}
+.port{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 25%;
+            border: 0px;
+                padding: 0px;
+                margin: 0px;
+    justify-content: center;
+}
+#nav{
+        background-color: #6666;
+            width: 100px;
+            height: 600px;
+            border: 0px;
+            padding: 100px;
+            margin: 0%;
 }

@@ -1,13 +1,11 @@
 @import url("https: //fonts.google.com/specimen/Poppins");
 
 *{
-    /* background-image: url("./images/portbackground.jpg");
-    background-size:cover; */
     color: black;
     background-color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(141, 134, 134);
 }
 button{
     height: 50px;
@@ -68,4 +66,52 @@ li a {
 li a:hover {
     background-color: #555;
     color: white
+}
+
+.box-container{
+    display: flex;
+    background-color: #555;
+    justify-content: center;
+    height: 150px;
+    flex-wrap: wrap;
+
+}
+
+.frames {
+    background-color: black;
+    color:white;
+    margin: 70px;
+    padding: 20px;
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+.about-container{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+.about-container > div {
+    background-color: transparent;
+    color:transparent;
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+img:hover{
+    transform: scale(140%);
+}
+
+#index{
+    border-radius:10%;
+    height: 40%;
+    width:10%;
 }
